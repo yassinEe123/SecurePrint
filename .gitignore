@@ -1,0 +1,34 @@
+# Environment virtuel
+secureprint_env/
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Base de données et clés (SENSIBLE - ne jamais publier)
+database/secureprint.db
+database/secret.key.enc
+database/secret.salt
+
+# Dataset FVC2002 (images + archive)
+*.tif
+DB1_B.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
